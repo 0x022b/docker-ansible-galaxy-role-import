@@ -16,10 +16,15 @@ runs:
 In addition to `galaxy_api_key` environment variable seen in the example above
 the container uses also `GITHUB_REPOSITORY` environment variable.
 
+## Versioning
+
+This project mirrors [Ansible][ansible]s major and minor version numbers.
+
 ## License
 
 This project is licensed under the MIT License.
 
 [alpine]: https://alpinelinux.org/
+[ansible]: https://www.ansible.com/
 [docker]: https://www.docker.com/
 [galaxy]: https://galaxy.ansible.com/
