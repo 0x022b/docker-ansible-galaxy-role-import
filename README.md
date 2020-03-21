@@ -1,4 +1,4 @@
-# docker-ansible-galaxy-role-import
+# Ansible Galaxy Role Import
 
 Minimal [Alpine Linux][alpine] based [Docker][docker] image for a GitHub Action
 that imports role into [Ansible Galaxy][galaxy].
@@ -14,7 +14,7 @@ runs:
 ```
 
 In addition to `galaxy_api_key` environment variable seen in the example above
-the container uses also `GITHUB_REPOSITORY` environment variable.
+the container also uses the built-in `GITHUB_REPOSITORY` environment variable.
 
 ## Versioning
 
